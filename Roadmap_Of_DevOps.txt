@@ -1,0 +1,78 @@
+Om Namah Shivaya
+
+DevOps Roadmap:
+
+1.  Linux Fundamentals ( 1 week) - `1
+
+    System Commands
+	Hardware Commands
+	Software Commands
+	Network Commands
+	Search Commands
+	User Commands
+	Permission Commands
+	Editor Commands (UI/Nano)
+	
+2.  SCM Tools - GIT & GITHUB/BITBUCKET (1 week ) --> dev -> Code -> github 
+                                          (devops --> Jenkins/Docker/manifests/Terraform--github) -2		  
+										  
+3.  Build Tools - Maven 
+         i. Compile
+		 ii. Unit Test
+		 iii. Pack
+		 iv. Install dependencies
+		 
+4.  CI/CD - Jenkins ( To write Pipelines): 2 weeks -3
+         i. APP Deploy Automate
+		 ii. Manual -> Automate
+		Manual --> Code -> BUild -> Test -> Deploy 
+		To automate the manual process we are using this CI/CD.
+		They are four concepts:
+		1.Pipelines
+		2.Agents
+		3.Integration
+		4.Credentails
+		 
+5.  Containerization - Docker(Most demenaded Tool in whole Devops) - 3 weeks
+         --> It is used to containerize the app 
+		 having many containers inside Server 
+		 Containers are like Application Container, Databse Container, Payment Gateways Container, Customers Data Container, Product detailsContainer.
+		 
+6.  Orchestration - Kubernetes(Most asked question in interview Most important)
+           Eg:  Youtube, whatsapp, instagram, amazon are all using kubernetes
+		Downtime
+        Auto Scaling
+        Roll Back
+Above all are used for deployment
+		
+7.  Cloud Services - AWS & AZURE(Present anyone of these fine)
+    Learn these service: EC2, S3,VPN, DB,ASG,LB,CW,R53,EBS,SNS,EFS
+	 
+8.  Configuration Management - Ansible ( you can skip but further you have to learn) - 1week
+     100's servers --> Package Install, file creation, folder creation
+	 -It is used to mange the multiple servers
+	 
+	 100-> Update
+	 
+9.  IAC - Terraform(Most Important)
+    - It is useed to create the infrastructure
+	- there are several ways to create the infrastructure
+	   i. Manual
+	   ii. CLI
+	   iii. Automate
+	- Mostly we are used to create the infrastructure through automate  
+    - Infra(Servers, DB &n/w) : automate
+	- We will create infra for once, we can use that infra as multiple times to create that infrastructure
+	
+10. Monitoring - DataDog, Newrelic, Prometheus, Grafana (Support role, & Freshers are worked )
+    Newrelic - Is very interesting
+	Prometheus & Grafana - On demand
+	- It is used to monitor about the servers condition
+
+For Security purpose we have to learn these 
+
+11. Security Tools - Sonarqube, Trivy, Istio, waracode etc.
+
+12. AI Tools in Devops - GitHub Copilot - is used to create the pipelines, K8S Gpt - Kubernetes, Cast AI.
+
+13. Projects & Career Preparation
